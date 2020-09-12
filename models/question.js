@@ -2,24 +2,25 @@ const mongoose = require('mongoose');
 
 
 // schema for every patient
-const auestionSchema = new mongoose.Schema({
+const questionSchema = new mongoose.Schema({
     
     querry: {
         type: String,
-        required: true
+        required: true,
     },
 
     topic: {
-        type: Number,
+        type: String,
         required: true,
-        unique: true
+        enum:["criteria1","new addmission","criteria2","criteria3"],
     },
     
 
     tags: [
 		{
 			type: String,
-			required:true
+            required:true,
+            enum:["usa","germany","europe","australia","admission","engineering","mbbs","france"],
 		},
 	],
     

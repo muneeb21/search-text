@@ -6,6 +6,7 @@ console.log('router loaded');
 
 const Controller=require('../controllers/controller')
 
+// Routes for insertion and selection of questions
 router.post('/insert',Controller.insert);
 router.post('/select',Controller.select);
 

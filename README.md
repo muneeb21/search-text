@@ -1,4 +1,4 @@
-# AdmitKard Assignment 1(text search)
+# AdmitKard Assignment 1(Search Text)
 A simple Restful API that provides a service / program which is be able to insert new questions in a question bank. This service / program  provides a way to retrieve the question based on a text.
  
 
